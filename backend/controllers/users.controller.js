@@ -168,6 +168,7 @@ export const signin = async (req, res, next) => {
         .cookie("access_token", token, {
           httpOnly: true,
           sameSite: "none",
+          domain:"localhost",
           expires: new Date(Date.now() + 3600_000 * 24 * 30),
         })
         .send({

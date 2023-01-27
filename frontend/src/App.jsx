@@ -11,6 +11,7 @@ import ShowUsers from './components/body/ShowUsers.jsx';
 import Profiles from './components/body/Profiles.jsx';
 import Contact from './components/body/Contact.jsx';
 import CreatePost from './components/body/CreatePost.jsx';
+import Records from './components/body/Records.jsx';
 
 function App() {
 
@@ -24,6 +25,7 @@ function App() {
         <Route path="/products/list" element={<Products />} />
         <Route path="/showusers" element={<ShowUsers />} />
         <Route path="/profiles" element={<Profiles />} />
+        <Route path="/records" element={<Records />} />
         <Route path="/login" element={<LoginForm />} />
         <Route path="/createpost" element={<CreatePost />} />
         <Route path="/contact" element={<Contact />} />

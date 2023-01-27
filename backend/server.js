@@ -9,6 +9,7 @@ import cookieParser from "cookie-parser";
 import authRouter from "./routers/user.router.js";
 import productRouter from "./routers/products.router.js";
 import postRouter from "./routers/posts.router.js";
+import recordsRouter from "./routers/records.router.js"
 import configureJwtStrategy from "./middleware/passport-jwt.js";
 
 const app = express();
@@ -21,7 +22,9 @@ connectToDB();
 app.use("/uploads", express.static("uploads"));
 
 /** MIDDLEWARES */
-app.use(cors({ credentials: true, origin: "http://localhost:8080" }));
+
+const configTest = { credentials: true, origin: "http://localhost:8080" };
+app.use(cors());
 app.use(cookieParser());
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
@@ -35,6 +38,7 @@ configureJwtStrategy(passport);
 app.use("/api/auth", authRouter);
 app.use("/api/products", productRouter);
 app.use("/api/posts", postRouter);
+app.use("/api/records", recordsRouter);
 
 /** ERROR HANDLERS */
 //404

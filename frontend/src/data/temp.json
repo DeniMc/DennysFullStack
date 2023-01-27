@@ -1,19 +1,40 @@
 [ 
 { 
-    "name": "Karim Hartweg ",
-    "bio":"My way or the Hartweg. There is no hiding when Karim’s on the pitch. As his teammate, he cajoles, he encourages, he profanes, he sets the standard. As his opponent, defending against him is like trying to keep two cats out of an open tuna tin at the same time. Will he go on the outside? Cut inside? Play a snappy one-two? Bolt to the byline and whip in a cross? Doesn’t matter: you stop that cross and he just bends in the corner. Direct. No bother. Hartweg? He makes it all look so easy.",
-    "Key stats": "most goals direct from a corner (3?), most likely assister, will have screamed your name in the highest decibel.",
-    "Awards": "World Champion World Cup ignorer 2022" ,
-    "images": [
-        "/images/Karim-Hartweg/karim-black.JPG",
-        "/images/Karim-Hartweg/karim-white.JPG",
-        "/images/Karim-Hartweg/karim-action.JPG"
-    ]
+    "artist": "Beyoncé",
+    "album_name": "Lemonade",
+    "release_year": 2016,
+    "description": "Lemonade is the sixth studio album by American singer Beyoncé. The album, a concept album, primarily explores themes of infidelity and reconciliation, along with themes of black womanhood, and its lyrics were inspired by poetry and other literary sources.",
+    "sales": "4 million copies worldwide",
+    "album_cover_image": "albumImages/beyonce-lemonade.jpg"
 },
 { 
-    "name": "Sharim Hartweg ",
-    "bio":"My way or the Hartweg. There is no hiding when Karim’s on the pitch. As his teammate, he cajoles, he encourages, he profanes, he sets the standard. As his opponent, defending against him is like trying to keep two cats out of an open tuna tin at the same time. Will he go on the outside? Cut inside? Play a snappy one-two? Bolt to the byline and whip in a cross? Doesn’t matter: you stop that cross and he just bends in the corner. Direct. No bother. Hartweg? He makes it all look so easy.",
-    "Key stats": "most goals direct from a corner (3?), most likely assister, will have screamed your name in the highest decibel.",
-    "Awards": "World Champion World Cup ignorer 2022"  
+    "artist": "ACDC",
+    "album_name": "Bak In Black",
+    "release_year": 1980,
+    "description": "Back in Black is the seventh studio album by Australian rock band AC/DC. It was released on 25 July 1980 by Albert Productions and Atlantic Records. It is the band's first album to feature lead singer Brian Johnson, following the death of previous lead singer Bon Scott.",
+    "sales": "50 million copies worldwide",
+    "album_cover_image": "albumImages/acDc-BackInBlack.jpg"
+},
+{ 
+    "artist": "Pink Floyd",
+    "album_name": "Dark Side of the Moon",
+    "release_year": 1973,
+    "description": "The Dark Side of the Moon is among the most critically acclaimed records in history, and is often featured in professional listings of the greatest albums of all time. The record helped to propel Pink Floyd to international fame, bringing wealth and plaudits to all four band members",
+    "album_cover_image": "albumImages/pinkFloyd-DarkSide.jpg"
+},
+{ 
+    "artist": "Prince",
+    "album_name": "Purple Rain",
+    "release_year": 1984,
+    "description": "Purple Rain became Prince's first album to reach number one on the Billboard 200. The album spent 24 consecutive weeks atop on the Billboard 200 and was present on the chart for a total of 122 weeks. When Doves Cry and Let's Go Crazy reached number one on the Billboard Hot 100, while Purple Rain peaked at number two",
+    "sales": "25 million copies worldwide",
+    "album_cover_image": "albumImages/prince-PurpleRain.jpg"
+},
+{ 
+    "artist": "The Clash",
+    "album_name": "London Calling",
+    "release_year": 1979,
+    "description": "London Calling is the third studio album by English rock band the Clash. It was originally released as a double album in the United Kingdom on 14 December 1979 by CBS Records, and in the United States in January 1980 by Epic Records.",
+    "album_cover_image": "albumImages/theClash-LondonCalling.jpg"
 }
 ]

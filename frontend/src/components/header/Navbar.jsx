@@ -41,6 +41,12 @@ function MainNav() {
 			  User Profiles
 			</Link>
 		  </li>
+
+		  <li className="nav_item">
+			<Link to="/records" className="nav_link">
+			  Show Records
+			</Link>
+		  </li>
 		
 		  <li className="nav_item">
 			<Link to="/products/list" className="nav_link">
